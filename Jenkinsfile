@@ -4,7 +4,7 @@ pipeline {
     kubernetes {
         cloud 'gkeonprem'
         label 'docker-build-pod-hybrid'
-        yamlFile 'podTemplate/spring-petclinic-docker-build.yaml'
+        yamlFile 'podTemplate/spring-petclinic-docker-build-hybrid.yaml'
         idleMinutes 120
     }
   }
